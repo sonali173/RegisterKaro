@@ -32,7 +32,7 @@ const Head = () => {
     <div className="nav">
       <div className="logo">
      <img src={assets.cap_img} alt="cap img" className="cap_img"/>
-        <img src={assets.logo_img} alt="RegisterKaro" className="logo-img" />
+        <img src={assets.logo_img} alt="RegisterKaro" loading="lazy" className="logo-img" />
       </div>
 
       <ul className="nav-links">
