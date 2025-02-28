@@ -81,12 +81,12 @@ const Home = () => {
                     <p> Trusted By Over 100+ Startups and freelance business </p>
                 </div>
                 <div className="trusted-company d-flex">
-                    <div className="oracle"><img src={assets.oracle_img} alt="" /></div>
-                    <div className="Morpheus"><img src={assets.morphisus_img} alt="" /></div>
-                    <div className="Morpheus"><img src={assets.morphisus_img} alt="" /></div>
-                    <div className="samsung"><img src={assets.samsung_img} alt="" /></div>
-                    <div className="monday"><img src={assets.monday_img} alt="" /></div>
-                    <div className="monday"><img src={assets.segment_img} alt="" /></div>
+                    <div className="oracle"><img src={assets.oracle_img} loading="lazy" alt="oracle" /></div>
+                    <div className="Morpheus"><img src={assets.morphisus_img} loading="lazy" alt="morphesus" /></div>
+                    <div className="Morpheus"><img src={assets.morphisus_img} loading="lazy" alt="morphesus" /></div>
+                    <div className="samsung"><img src={assets.samsung_img} loading="lazy" alt=" samsung" /></div>
+                    <div className="monday"><img src={assets.monday_img} loading="lazy" alt="monday" /></div>
+                    <div className="monday"><img src={assets.segment_img} loading="lazy" alt="monday" /></div>
                 </div>
             </div>
             <div className="all-cards-container">
@@ -96,8 +96,8 @@ const Home = () => {
                         <h6> Explore Our Services</h6>
                     </div>
                     <div className="cards  col-4">
-                        <div className="redline"><img src={assets.card7_img} alt="" /></div>
-                        <img src={assets.card1_img} alt="" />
+                        <div className="redline"><img src={assets.card7_img} loading="lazy" alt="image" /></div>
+                        <img src={assets.card1_img} loading="lazy" alt=" image" />
                         <h5> Company Formation </h5>
                         <p> Build web-based solutions that
                             enhance customer experience.</p>
