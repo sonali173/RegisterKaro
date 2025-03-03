@@ -30,6 +30,8 @@ const Head = () => {
             </nav>
 
     <div className="nav">
+    <i class="bx bx-menu" id="menu-icon"></i>
+
       <div className="logo">
      <img src={assets.cap_img} alt="cap img" className="cap_img"/>
         <img src={assets.logo_img} alt="RegisterKaro" className="logo-img" />

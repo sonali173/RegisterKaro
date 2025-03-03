@@ -4,9 +4,9 @@ import { assets } from "../../assets/assets"
 
 const Home = () => {
     return (
-        <div className="hero-section">
-            <div className="home-section">
-                <div className="BannerContainer">
+        <div className="hero-section ">
+            <div className="home-section d-flex">
+                <div className="BannerContainer" id="Home">
 
                     < div className="GoogleRating d-flex">
                         <div className="singleStar d-flex">
@@ -54,25 +54,31 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="button d-flex">
+                    <div className="button expert-button d-flex">
 
                         <button className="expert">Talk An Expert</button><li><i class="fa-solid fa-circle-play"></i></li>
-                        <button className="see"> See how it works</button>
+                        <button className="see">See how it works</button>
                     </div>
                 </div>
-                <div className="center_img">
-                    <img src={assets.hero_img} alt="" />
+                <div className="center_img1">
+                    <div className="center_img">
+                        <img src={assets.hero_img} alt="image" />
+                    </div>
                 </div>
-                <div className="goal_img">
-                    <img src={assets.goal_img} alt="" />
-                </div>
-                <div className="all-botton">
-                    <ul>
-                        <li>Annual Compliance</li>
-                        <li>Payroll Services</li>
-                        <li>Company Formation</li>
-                        <li>Annual Compliance</li>
-                    </ul>
+                <div className="side-annual ">
+                    <div className="all-botton">
+                        <ul>
+                            <li>Annual Compliance</li>
+                            <li>Payroll Services</li>
+                            <li>Company Formation</li>
+                            <li>Annual Compliance</li>
+                        </ul>
+
+                    </div>
+
+                    <div className="goal_img">
+                        <img src={assets.goal_img} loading="lazy" alt="" />
+                    </div>
 
                 </div>
             </div>
@@ -96,7 +102,6 @@ const Home = () => {
                         <h6> Explore Our Services</h6>
                     </div>
                     <div className="cards  col-4">
-                        <div className="redline"><img src={assets.card7_img} alt="" /></div>
                         <img src={assets.card1_img} alt="" />
                         <h5> Company Formation </h5>
                         <p> Build web-based solutions that
@@ -104,8 +109,6 @@ const Home = () => {
                         <button>Learn more <i class='bx bx-right-arrow-circle'></i></button>
                     </div>
                     <div className="cards lineCard col-4">
-                        <div className="redlinedown"><img src={assets.card7_img} alt="" /></div>
-                        <img src={assets.card1_img} alt="" />
 
                         <img src={assets.card2_img} alt="" />
                         <h5>  Company Secretarial Services </h5>
@@ -122,8 +125,6 @@ const Home = () => {
                         <button>Learn more <i class='bx bx-right-arrow-circle'></i></button>
                     </div>
                     <div className="cards col-4">
-                        <div className="redline"><img src={assets.card7_img} alt="" /></div>
-                        <img src={assets.card1_img} alt="" />
 
                         <img src={assets.card4_img} alt="" />
                         <h5> Annual Compliance Service </h5>
@@ -132,7 +133,6 @@ const Home = () => {
                         <button>Learn more <i class='bx bx-right-arrow-circle'></i></button>
                     </div>
                     <div className="cards lineCard col-4">
-                        <div className="redlinedown"><img src={assets.card7_img} alt="" /></div>
 
                         <img src={assets.card5_img} alt="" />
                         <h5>  Payroll Services </h5>
@@ -180,10 +180,10 @@ const Home = () => {
                     </div>
                     <div className="side_img col-2 d-flex">
                         <div className="side1">
-                            <img src={assets.side_img} alt="" />
+                            <img src={assets.side_img} alt="image" />
                         </div>
                         <div className="dot_img">
-                            <img src={assets.dot_img} alt="" />
+                            <img src={assets.dot_img} alt="image" />
                         </div>
                     </div>
                 </div>
@@ -267,9 +267,11 @@ const Home = () => {
                     <a href="https://youtu.be/UdG1AA2gWQs?si=QU8cOlsPijo3WNRw" target="_blank"> <img src={assets.video_img} alt="video" /></a>
                 </div>
             </div>
+
             <div className="happy-clients">
-                <img src={assets.happy_img} alt="" />
+                <img src={assets.happy_img} alt="image" />
             </div>
+            {/* application-client */}
 
             <div className="application d-flex">
                 <div className="form form1 d-flex">
@@ -305,7 +307,7 @@ const Home = () => {
                             <div className="business-section container col-4">
                                 <div className="business-row row">
                                     <div class="business-card">
-                                        <img src={assets.business_img} alt="Business" />
+                                        <img src={assets.image1_img} alt="Business" />
                                         <div class="card-content">
                                             <p className="author">Prabhash Mishra • 1 Jan 2023 • Today </p>
                                             <h3>Small business & Startup</h3><li><i class="fa-solid fa-arrow-up"></i></li>
@@ -321,7 +323,7 @@ const Home = () => {
                             <div className="business-section container col-4">
                                 <div className="business-row row">
                                     <div class="business-card">
-                                        <img src={assets.business_img} alt="Business" />
+                                        <img src={assets.image2_img} alt="Business" />
                                         <div class="card-content">
                                             <p className="author">Prabhash Mishra • 1 Jan 2023 • Today </p>
                                             <h3>Small business & Startup</h3><li><i class="fa-solid fa-arrow-up"></i></li>
@@ -337,7 +339,7 @@ const Home = () => {
                             <div className="business-section container col-4">
                                 <div className="business-row row">
                                     <div class="business-card">
-                                        <img src={assets.business_img} alt="Business" />
+                                        <img src={assets.image1_img} alt="Business" />
                                         <div class="card-content">
                                             <p className="author">Prabhash Mishra • 1 Jan 2023 • Today </p>
                                             <h3>Small business & Startup</h3><li><i class="fa-solid fa-arrow-up"></i></li>
@@ -353,7 +355,7 @@ const Home = () => {
                             <div className="business-section container col-4">
                                 <div className="business-row row">
                                     <div class="business-card">
-                                        <img src={assets.business_img} alt="Business" />
+                                        <img src={assets.image4_img} alt="Business" />
                                         <div class="card-content">
                                             <p className="author">Prabhash Mishra • 1 Jan 2023 • Today </p>
                                             <h3>Small business & Startup</h3><li><i class="fa-solid fa-arrow-up"></i></li>
@@ -369,7 +371,7 @@ const Home = () => {
                             <div className="business-section container col-4">
                                 <div className="business-row row">
                                     <div class="business-card">
-                                        <img src={assets.business_img} alt="Business" />
+                                        <img src={assets.image5_img} alt="Business" />
                                         <div class="card-content">
                                             <p className="author">Prabhash Mishra • 1 Jan 2023 • Today </p>
                                             <h3>Small business & Startup</h3><li><i class="fa-solid fa-arrow-up"></i></li>
@@ -385,7 +387,7 @@ const Home = () => {
                             <div className="business-section container col-4">
                                 <div className="business-row row">
                                     <div class="business-card">
-                                        <img src={assets.business_img} alt="Business" />
+                                        <img src={assets.image6_img} alt="Business" />
                                         <div class="card-content">
                                             <p className="author">Prabhash Mishra • 1 Jan 2023 • Today </p>
                                             <h3>Small business & Startup</h3><li><i class="fa-solid fa-arrow-up"></i></li>
@@ -412,8 +414,124 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="people">
+            {/* people say */}
+            {/* <div className="people">
                 <img src={assets.people_img} alt="people" />
+            </div> */}
+            <div className="client-view">
+                <div className="people-say">
+                    <div className="title-heading d-flex">
+                        <div className="say-about">
+                            <h6>What peoples says about us   </h6>
+                        </div>
+                        <div className="two-icon d-flex">
+                            <div className="two-icons icons1">
+                                <li><i class="fa-solid fa-angle-left"></i></li>
+                            </div>
+                            <div className="two-icons icons2">
+                                <li><i class="fa-solid fa-angle-right"></i></li>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="people-container">
+                        <div className="people-row d-flex">
+                            <div className="people-card1 col-4 ">
+                                <div className="people-icon d-flex">
+                                    <div className="quotes quotes1">
+                                        <li><i class='bx bxs-quote-left'></i></li>
+                                    </div>
+                                    <div className="quotes">
+                                        <ul >
+                                            <li> <i class="fa-solid fa-star"></i></li>
+                                            <li> <i class="fa-solid fa-star"></i></li>
+                                            <li> <i class="fa-solid fa-star"></i></li>
+                                            <li> <i class="fa-solid fa-star"></i></li>
+                                            <li> <i class="fa-solid fa-star-half-stroke"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat aute irure sint
+                                    amet occaecat cupidatat non proident ea commodo consequat
+                                    aute irure sint amet occaecat cupidatat non proident</p>
+
+                                <div className="people-id d-flex">
+                                    <div className="people-img">
+                                        <img src={assets.client_img} alt="client" loading="lazy" />
+                                    </div>
+                                    <div className="client-say">
+                                        <h6>Chris</h6>
+                                        <p>President and CEO, PrintReach, USA</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className="people-card1 col-4">
+                                <div className="people-icon d-flex">
+                                    <div className="quotes quotes1">
+                                        <li><i class='bx bxs-quote-left'></i></li>
+                                    </div>
+                                    <div className="quotes">
+                                        <ul >
+                                            <li> <i class="fa-solid fa-star"></i></li>
+                                            <li> <i class="fa-solid fa-star"></i></li>
+                                            <li> <i class="fa-solid fa-star"></i></li>
+                                            <li> <i class="fa-solid fa-star"></i></li>
+                                            <li> <i class="fa-solid fa-star-half-stroke"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat aute irure sint
+                                    amet occaecat cupidatat non proident ea commodo consequat
+                                    aute irure sint amet occaecat cupidatat non proident</p>
+
+                                <div className="people-id d-flex">
+                                    <div className="people-img">
+                                        <img src={assets.client_img} alt="client" loading="lazy" />
+                                    </div>
+                                    <div className="client-say">
+                                        <h6>Chris</h6>
+                                        <p>President and CEO, PrintReach, USA</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className="people-card1 col-4">
+                                <div className="people-icon d-flex">
+                                    <div className="quotes quotes1">
+                                        <li><i class='bx bxs-quote-left'></i></li>
+                                    </div>
+                                    <div className="quotes">
+                                        <ul >
+                                            <li> <i class="fa-solid fa-star"></i></li>
+                                            <li> <i class="fa-solid fa-star"></i></li>
+                                            <li> <i class="fa-solid fa-star"></i></li>
+                                            <li> <i class="fa-solid fa-star"></i></li>
+                                            <li> <i class="fa-solid fa-star-half-stroke"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat aute irure sint
+                                    amet occaecat cupidatat non proident ea commodo consequat
+                                    aute irure sint amet occaecat cupidatat non proident</p>
+
+                                <div className="people-id d-flex">
+                                    <div className="people-img">
+                                        <img src={assets.client_img} alt="client" loading="lazy" />
+                                    </div>
+                                    <div className="client-say">
+                                        <h6>Chris</h6>
+                                        <p>President and CEO, PrintReach, USA</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
             {/* faq */}
 
@@ -455,37 +573,196 @@ const Home = () => {
                     <h2>Manage Your Services by your <br /> Mobile Phone</h2>
                     <p>Download our app to manage and track your services. Our app enables you to stay in touch with our experts and aids you in tracking your progress.</p>
 
-                <h6>Get the App</h6>
-                <div className="buttons d-flex">
-                    <div className="app-btn d-flex">
-                        <div className="app">
-                            <i class="fa-brands fa-apple"></i>
+                    <h6>Get the App</h6>
+                    <div className="buttons d-flex">
+                        <div className="app-btn d-flex">
+                            <div className="app">
+                                <i class="fa-brands fa-apple"></i>
+                            </div>
+                            <div className="store"><p>App Store</p>
+                            </div>
                         </div>
-                        <div className="store"><p>App Store</p>
+                        <div className="app-btn d-flex">
+                            <div className="app">
+                                <i class="fa-brands fa-google-play"></i>
+                            </div>
+                            <div className="store"><p>Play Store</p>
+                            </div>
                         </div>
                     </div>
-                    <div className="app-btn d-flex">
-                        <div className="app">
-                        <i class="fa-brands fa-google-play"></i>
-                        </div>
-                        <div className="store"><p>Play Store</p>
-                        </div>
-                    </div>
-                    </div>
-                    
+
                 </div>
-                <div className="mobile">
+                <div className="mobile_img">
                     <img src={assets.mobile_img} alt="" />
                 </div>
 
             </div>
 
+            {/* Number */}
+            <div className="num-can">
+                <div class="number-container">
+                    <div className="busy-text ">
+                        <p>WHY REGISTER KARO</p>
+                        <h4>Some Numbers are important</h4>
+                    </div>
+                    <div className="number container">
+                        <div className="number-row row">
+
+                            <div className="customer col-2">
+                                <h1>1M<sup>+</sup></h1>
+                                <h6>  CUSTOMERS</h6>
+                            </div>
+                            <div className="customer customer-red col-2">
+                                <h1>12<sup>+</sup></h1>
+                                <h6>YEARS OF EXCELLENCE</h6>
+                            </div>
+                            <div className="customer col-2">
+                                <h1>41<sup>+</sup></h1>
+                                <h6>R&D ENGINEERS</h6>
+                            </div>
+                            <div className="customer col-2">
+                                <h1>78<sup>+</sup></h1>
+                                <h6>COUNTRIES</h6>
+                            </div>
+                            <div className="customer col-2">
+                                <h1>3287<sup>+</sup></h1>
+                                <h6>PARTNERS</h6>
+                            </div>
+                            <div className="customer col-2">
+                                <h1>41<sup>+</sup></h1>
+                                <h6>AWARDS RECEIVED</h6>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+            {/* digital-search */}
+
+            <div className="search-section">
+                <div className="busy-text indrustry ">
+                    <p>1% OF THE INDRUDTRY</p>
+                    <h4>Welcome to your new digital reality. Now.</h4>
+                    <div className="search_bar">
+                        <div class="email-container">
+                            <input type="email" placeholder="Enter Your Email" class="email-input" />
+                            <button class="submit-btn">Submit</button>
+                        </div>
+                    </div>
+                    <div class="feature-container d-flex">
+                        <div class="feature-item">
+                            <span2 class="check-icon">✔</span2>
+                            <p> Instant results</p>
+                        </div>
+                        <div class="feature-item">
+                            <span2 class="check-icon">✔</span2>
+                            <p> User-friendly interface</p>
+                        </div>
+                        <div class="feature-item">
+                            <span2 class="check-icon">✔</span2>
+                            <p> Personalized customization</p>
+                        </div>
+                    </div>
 
 
 
 
+                </div>
 
+
+            </div>
+            {/* ṣpotify */}
+            <div className="trusted">
+                <div className="trusted-company d-flex">
+                    <div className="oracle"><img src={assets.company1_img} alt="image" loading="lazy" /></div>
+                    <div className="Morpheus"><img src={assets.company2_img} alt="image" loading="lazy" /></div>
+                    <div className="Morpheus"><img src={assets.company3_img} alt="image" loading="lazy" /></div>
+                    <div className="samsung"><img src={assets.company4_img} alt="image" loading="lazy" /></div>
+                    <div className="monday"><img src={assets.company5_img} alt="image" loading="lazy" /></div>
+                    <div className="monday"><img src={assets.company6_img} alt="image" loading="lazy" /></div>
+                </div>
+            </div>
+            {/* footer */}
+
+            <div className="footer-can">
+    <div className="footer-row d-flex">
+        <div className="footer-para col-3">
+            <p>Design outstanding interfaces
+                with advanced Figma features in
+                a matter of minutes</p>
+
+            <div className="social-media">
+                <ul className="d-flex">
+                    <li><a href="#"><i className="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i className="fa-brands fa-apple"></i></a></li>
+                    <li><a href="#"><i className="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i className="fa-brands fa-google"></i></a></li>
+                </ul>
+            </div>
         </div>
+
+        <div className="footer-head col-2">
+            <h6>START A BUSINESS</h6>
+            
+                <p>Features</p>
+                <p>Solutions</p>
+                <p>Integrations</p>
+                <p>Enterprise</p>
+            
+        </div>
+
+        <div className="footer-head col-3">
+            <h6>GOVERNMENT REGISTRATION</h6>
+            
+                <p>Partners</p>
+                <p>Community</p>
+                <p>Developers</p>
+                <p>App</p>
+                <p>Blog</p>
+            
+        </div>
+
+        <div className="footer-head col-2">
+            <h6>COMPLIANCE & TAX</h6>
+            
+                <p>Channels</p>
+                <p>Scale</p>
+                <p>Watch the Demo</p>
+                <p>Our Competition</p>
+            
+        </div>
+        <div className="footer-head col-2">
+            <h6>BIS & CDSCO</h6>
+            
+                <p>About US</p>
+                <p>News</p>
+                <p>Leadership</p>
+                <p>Media Kit</p>
+        
+        </div>
+    </div>
+    <div className="busy-text footer-text ">
+                    <div className="footer-arrow">
+                        <a href="#Home"><li><i class="fa-solid fa-arrow-up"></i></li></a>
+
+                    </div>
+                    <p>© 2024 Registerkaro. All Rights Reserved.</p>
+                </div>
+
+
+</div>
+
+
+
+
+
+
+        </div >
 
 
 
