@@ -60,6 +60,7 @@ const Home = () => {
                         <button className="see">See how it works</button>
                     </div>
                 </div>
+<<<<<<< HEAD
                 <div className="center_img1">
                     <div className="center_img">
                         <img src={assets.hero_img} alt="image" />
@@ -79,6 +80,21 @@ const Home = () => {
                     <div className="goal_img">
                         <img src={assets.goal_img} loading="lazy" alt="" />
                     </div>
+=======
+                <div className="center_img">
+                    <img src={assets.hero_img} loading="lazy" alt="hero image" />
+                </div>
+                <div className="goal_img">
+                    <img src={assets.goal_img} loading="lazy" alt="goal image" />
+                </div>
+                <div className="all-botton">
+                    <ul>
+                        <li>Annual Compliance</li>
+                        <li>Payroll Services</li>
+                        <li>Company Formation</li>
+                        <li>Annual Compliance</li>
+                    </ul>
+>>>>>>> 1afe5de57b087a44bea306e679e9430947588685
 
                 </div>
             </div>
@@ -87,12 +103,12 @@ const Home = () => {
                     <p> Trusted By Over 100+ Startups and freelance business </p>
                 </div>
                 <div className="trusted-company d-flex">
-                    <div className="oracle"><img src={assets.oracle_img} alt="" /></div>
-                    <div className="Morpheus"><img src={assets.morphisus_img} alt="" /></div>
-                    <div className="Morpheus"><img src={assets.morphisus_img} alt="" /></div>
-                    <div className="samsung"><img src={assets.samsung_img} alt="" /></div>
-                    <div className="monday"><img src={assets.monday_img} alt="" /></div>
-                    <div className="monday"><img src={assets.segment_img} alt="" /></div>
+                    <div className="oracle"><img src={assets.oracle_img} loading="lazy" alt="oracle" /></div>
+                    <div className="Morpheus"><img src={assets.morphisus_img} loading="lazy" alt="morphesus" /></div>
+                    <div className="Morpheus"><img src={assets.morphisus_img} loading="lazy" alt="morphesus" /></div>
+                    <div className="samsung"><img src={assets.samsung_img} loading="lazy" alt=" samsung" /></div>
+                    <div className="monday"><img src={assets.monday_img} loading="lazy" alt="monday" /></div>
+                    <div className="monday"><img src={assets.segment_img} loading="lazy" alt="monday" /></div>
                 </div>
             </div>
             <div className="all-cards-container">
@@ -102,15 +118,25 @@ const Home = () => {
                         <h6> Explore Our Services</h6>
                     </div>
                     <div className="cards  col-4">
+<<<<<<< HEAD
                         <img src={assets.card1_img} alt="" />
+=======
+                        <div className="redline"><img src={assets.card7_img} loading="lazy" alt="image" /></div>
+                        <img src={assets.card1_img} loading="lazy" alt=" image" />
+>>>>>>> 1afe5de57b087a44bea306e679e9430947588685
                         <h5> Company Formation </h5>
                         <p> Build web-based solutions that
                             enhance customer experience.</p>
                         <button>Learn more <i class='bx bx-right-arrow-circle'></i></button>
                     </div>
                     <div className="cards lineCard col-4">
+<<<<<<< HEAD
+=======
+                        <div className="redlinedown"><img src={assets.card7_img} loading="lazy" alt="card" /></div>
+                        <img src={assets.card1_img} loading="lazy" alt="card" />
+>>>>>>> 1afe5de57b087a44bea306e679e9430947588685
 
-                        <img src={assets.card2_img} alt="" />
+                        <img src={assets.card2_img} loading="lazy" alt="card" />
                         <h5>  Company Secretarial Services </h5>
                         <p> Make data-driven decisions and
                             utilize technology to reach
@@ -118,30 +144,39 @@ const Home = () => {
                         <button>Learn more <i class='bx bx-right-arrow-circle'></i></button>
                     </div>
                     <div className="cards col-4">
-                        <img src={assets.card3_img} alt="" />
+                        <img src={assets.card3_img} loading="lazy" alt="card" />
                         <h5> Virtual Office Address</h5>
                         <p>  Foster customer relationships by
                             effectively serving your market.</p>
                         <button>Learn more <i class='bx bx-right-arrow-circle'></i></button>
                     </div>
                     <div className="cards col-4">
+<<<<<<< HEAD
+=======
+                        <div className="redline"><img src={assets.card7_img} alt="card" /></div>
+                        <img src={assets.card1_img} loading="lazy" alt=" card" />
+>>>>>>> 1afe5de57b087a44bea306e679e9430947588685
 
-                        <img src={assets.card4_img} alt="" />
+                        <img src={assets.card4_img} loading="lazy" alt="card" />
                         <h5> Annual Compliance Service </h5>
                         <p>Turn your ideas into modern
                             products with our design experts</p>
                         <button>Learn more <i class='bx bx-right-arrow-circle'></i></button>
                     </div>
                     <div className="cards lineCard col-4">
+<<<<<<< HEAD
+=======
+                        <div className="redlinedown"><img src={assets.card7_img}loading="lazy" alt="card" /></div>
+>>>>>>> 1afe5de57b087a44bea306e679e9430947588685
 
-                        <img src={assets.card5_img} alt="" />
+                        <img src={assets.card5_img} loading="lazy" alt="card" />
                         <h5>  Payroll Services </h5>
                         <p>  Expand your business across the
                             globe with minimal effort</p>
                         <button>Learn more <i class='bx bx-right-arrow-circle'></i></button>
                     </div>
                     <div className="cards col-4">
-                        <img src={assets.card6_img} alt="" />
+                        <img src={assets.card6_img} loading="lazy" alt="card" />
                         <h5> Bookkeeping Services </h5>
                         <p>  Steering user behaviours with
                             creative design, data insights &
@@ -176,14 +211,21 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="about_img col-4">
-                        <img src={assets.about_img} alt="about img" />
+                        <img src={assets.about_img} loading="lazy" alt="about img" />
                     </div>
                     <div className="side_img col-2 d-flex">
                         <div className="side1">
+<<<<<<< HEAD
                             <img src={assets.side_img} alt="image" />
                         </div>
                         <div className="dot_img">
                             <img src={assets.dot_img} alt="image" />
+=======
+                            <img src={assets.side_img} loading="lazy" alt="" />
+                        </div>
+                        <div className="dot_img">
+                            <img src={assets.dot_img} loading="lazy" alt="" />
+>>>>>>> 1afe5de57b087a44bea306e679e9430947588685
                         </div>
                     </div>
                 </div>
@@ -414,6 +456,7 @@ const Home = () => {
                 </div>
             </div>
 
+<<<<<<< HEAD
             {/* people say */}
             {/* <div className="people">
                 <img src={assets.people_img} alt="people" />
@@ -532,6 +575,10 @@ const Home = () => {
                     </div>
 
                 </div>
+=======
+            <div className="people">
+                <img src={assets.people_img} loading="lazy" alt="people" />
+>>>>>>> 1afe5de57b087a44bea306e679e9430947588685
             </div>
             {/* faq */}
 
@@ -592,8 +639,13 @@ const Home = () => {
                     </div>
 
                 </div>
+<<<<<<< HEAD
                 <div className="mobile_img">
                     <img src={assets.mobile_img} alt="" />
+=======
+                <div className="mobile">
+                    <img src={assets.mobile_img} loading="lazy" alt="mobile" />
+>>>>>>> 1afe5de57b087a44bea306e679e9430947588685
                 </div>
 
             </div>
