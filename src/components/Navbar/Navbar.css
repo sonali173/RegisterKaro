@@ -160,7 +160,7 @@ span{
     @media (max-width:991px) {
       #menu-icon {
         display: block;
-        color:blue;
+          display:none;
         cursor: pointer;position: absolute;
         right: 20px;
     }
